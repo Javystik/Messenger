@@ -49,6 +49,25 @@
       <artifactId>jakarta.persistence-api</artifactId>
       <version>3.2.0-M2</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.github.palexdev/materialfx -->
+    <dependency>
+      <groupId>io.github.palexdev</groupId>
+      <artifactId>materialfx</artifactId>
+      <version>11.17.0</version>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/org.kordamp.ikonli/ikonli-javafx -->
+    <dependency>
+      <groupId>org.kordamp.ikonli</groupId>
+      <artifactId>ikonli-javafx</artifactId>
+      <version>12.3.1</version>
+    </dependency>
+
+
+
+
   </dependencies>
 
   <build>
@@ -71,7 +90,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.zoi4erom.messenger/com.zoi4erom.messenger.HelloApplication</mainClass>
+              <mainClass>com.zoi4erom.messenger/com.zoi4erom.messenger.MessengerApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

@@ -1,0 +1,11 @@
+[33mcommit 28312d6560ba7efda93db4a9eaf1f4c9cba442e0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Javystik <miroivladik@gmail.com>
+Date:   Wed Mar 27 17:08:10 2024 +0200
+
+    User Entity + Repo(CRUD) + BaseRepo(abstract class implementing basic CRUD operations) + UserRepo
+
+[33mcommit fbb2a9f6a0b7094ed587458e07b69559aede8620[m
+Author: Javystik <miroivladik@gmail.com>
+Date:   Wed Mar 27 15:45:27 2024 +0200
+
+    first commit

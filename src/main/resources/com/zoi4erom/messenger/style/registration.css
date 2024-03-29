@@ -1,0 +1,59 @@
+.input_label {
+  -fx-font-size: 14px;
+  -fx-text-fill: #8B8E98;
+  -fx-font-weight: 800;
+}
+
+.input_field {
+  -fx-pref-height: 40px;
+  -fx-padding: 0 0 0 16px;
+  -fx-border-radius: 9px;
+  -fx-background-color: #F2F2F2;
+  -fx-border-color: transparent;
+  -fx-border-width: 1px;
+}
+
+.input_field:focused {
+  -fx-border-color: #242424;
+  -fx-background-color: #FFFFFF;
+  -fx-border-width: 1px;
+  -fx-border-insets: -1;
+  -fx-border-radius: 10px;
+  -fx-border-style: solid;
+}
+
+.custom-button {
+  -fx-background-color: #645bff;
+  -fx-text-fill: #fff;
+  -fx-font-weight: bold;
+  -fx-padding: 1em 1.8em;
+  -fx-border-radius: 20px;
+  -fx-border-width: 0;
+  -fx-alignment: center;
+  -fx-content-display: center;
+  -fx-gap: 0.6em;
+  -fx-cursor: hand;
+}
+
+.custom-button:hover {
+  -fx-background-color: #111;
+}
+
+.arrow-wrapper {
+  -fx-alignment: center;
+  -fx-content-display: center;
+}
+
+.arrow {
+  -fx-background-color: #645bff;
+  -fx-min-width: 10px;
+  -fx-min-height: 2px;
+  -fx-max-width: 10px;
+  -fx-max-height: 2px;
+  -fx-padding: 0;
+  -fx-border-width: 0;
+}
+
+.arrow:hover {
+  -fx-background-color: #fff;
+}
