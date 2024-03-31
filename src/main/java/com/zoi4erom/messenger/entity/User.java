@@ -5,7 +5,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,9 +19,9 @@ import lombok.Setter;
 
 @Table(name = "users")
 @Entity
+@NoArgsConstructor
 @Getter
 @Setter
-@NoArgsConstructor
 public class User implements BaseEntity {
 
 	@Id
@@ -31,6 +37,16 @@ public class User implements BaseEntity {
 
 	@Column(name = "email")
 	private String email;
+
+	@ManyToMany(mappedBy = "users")
+	private Set<Chat> chats = new HashSet<>();
+
+
+	@OneToMany(mappedBy = "author")
+	private List<Message> messageList = new ArrayList<>();
+
+	@OneToMany(mappedBy = "user")
+	private Set<Friend> friendships;
 
 	public User(String login, String password, String email) {
 		this.login = login;

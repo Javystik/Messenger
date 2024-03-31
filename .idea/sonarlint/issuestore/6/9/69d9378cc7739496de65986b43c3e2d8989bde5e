@@ -1,0 +1,12 @@
+
+x
+java:S1481"0Remove this unused "messageRepo" local variable.(ÅÀ£ëıÿÿÿÿ8Ïïï©é1J$09714f4a-4a9c-4267-9195-6ab8b3da265f
+p
+java:S1481"-Remove this unused "chatRepo" local variable.(·ˆ™€8Ğïï©é1J$b1c73481-ec8d-408e-86b6-94efac1d140d
+u
+java:S1481"-Remove this unused "userRepo" local variable.(¨¥ñœÿÿÿÿÿ8Ğïï©é1J$601a2fca-ec75-43dd-9a49-c8ff7fe6a946
+r	java:S106""+Replace this use of System.out by a logger.(”’¦òûÿÿÿÿ8Àğ©é1J$4dd1b4c2-983c-41aa-816c-f24d73fff3b4
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8‚Àğ©é1J$222cc1a9-7937-4291-a0a8-76b6ae86719b
+z
+java:S1128"2Remove this unused import 'org.hibernate.Session'.(È¹›§ùÿÿÿÿ8ƒÀğ©é1J$93264fbd-1d12-4c57-b625-68ecd8b5e9a9
