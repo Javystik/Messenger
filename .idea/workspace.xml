@@ -4,52 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc63a567-1104-4b4d-aaa8-4cac92b2b0bd" name="Changes" comment="New Entity: Chat, Message, Friend, new Repository for new entity.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b819803d-3e7b-4525-97ff-1d7a1ae38765.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b819803d-3e7b-4525-97ff-1d7a1ae38765.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d858189ad5d8e450ced3a131a607ad910ba5f7a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d858189ad5d8e450ced3a131a607ad910ba5f7a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fc12115279a336d748866b161a36dda6d5d993a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fc12115279a336d748866b161a36dda6d5d993a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2705c389df593c3252aa2289eef6f7eb6c96657a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/389ad0c15d67f8e46e3d6afcfa6479d772c6c90e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/389ad0c15d67f8e46e3d6afcfa6479d772c6c90e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c41e11de608761d6405c710720df58bb13331ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59fdbeda569fda415396baefad23f014aeb2de61" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e4e26e8321536faa535d6f1907570fed6df91c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e4e26e8321536faa535d6f1907570fed6df91c2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62045777d1331732c5f7ef7b8a0fa5b5a60251fb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62045777d1331732c5f7ef7b8a0fa5b5a60251fb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6329f7bc9731f338e3a5b0a44bd1abcf52df8ac4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6329f7bc9731f338e3a5b0a44bd1abcf52df8ac4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69d9378cc7739496de65986b43c3e2d8989bde5e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69d9378cc7739496de65986b43c3e2d8989bde5e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e01b029b91bb39824363397533e85849e3fc7fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e01b029b91bb39824363397533e85849e3fc7fd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f42b0e363d733754ea4e85106f371921f544ca9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b495571e663bfde7798f2ea6e560dd6b28458a58" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b495571e663bfde7798f2ea6e560dd6b28458a58" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0403bf0791ac9890f19695f48ece1837842def9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1e15fbe24dbbe918c4d62d7e617ae013641a04e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d736b3072b91333a22e92a21725005fb7a76a7cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d736b3072b91333a22e92a21725005fb7a76a7cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed09ac150d531931c69bfb12dcf9e411aca56a7c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed09ac150d531931c69bfb12dcf9e411aca56a7c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/2705c389df593c3252aa2289eef6f7eb6c96657a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c41e11de608761d6405c710720df58bb13331ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59fdbeda569fda415396baefad23f014aeb2de61" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7f42b0e363d733754ea4e85106f371921f544ca9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c0403bf0791ac9890f19695f48ece1837842def9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c1e15fbe24dbbe918c4d62d7e617ae013641a04e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Friend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/ChatRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/ChatRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/FriendRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/FriendRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/MessageRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/Repo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/RepoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/RepoBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/UserRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc63a567-1104-4b4d-aaa8-4cac92b2b0bd" name="Changes" comment="Added User DTO, Mapper, and HibernateUtil, transitioned to Optional, EntityManager from SessionFactory&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +103,7 @@
       <workItem from="1711895963411" duration="5063000" />
       <workItem from="1711972761801" duration="4030000" />
       <workItem from="1711977147432" duration="1443000" />
-      <workItem from="1712058446391" duration="4895000" />
+      <workItem from="1712058446391" duration="5198000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -174,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711900962227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added User DTO, Mapper, and HibernateUtil, transitioned to Optional, EntityManager from SessionFactory&quot;">
+      <option name="closed" value="true" />
+      <created>1712063551572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712063551572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +158,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Login + Register Views+Controller+Service" />
     <MESSAGE value="New Entity: Chat, Message, Friend, new Repository for new entity." />
-    <option name="LAST_COMMIT_MESSAGE" value="New Entity: Chat, Message, Friend, new Repository for new entity." />
+    <MESSAGE value="Added User DTO, Mapper, and HibernateUtil, transitioned to Optional, EntityManager from SessionFactory&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User DTO, Mapper, and HibernateUtil, transitioned to Optional, EntityManager from SessionFactory&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
