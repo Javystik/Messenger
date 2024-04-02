@@ -1754,12 +1754,8 @@ y
 Isrc/main/java/com/zoi4erom/messenger/repository/impl/MessageRepoImpl.java,e\4\e4984ae51721e6e582e8f71574c2c3ed04adf1a8
 x
 Hsrc/main/java/com/zoi4erom/messenger/repository/impl/FriendRepoImpl.java,9\3\93dea122808604ec1a68e5c43dcf34851645009b
-j
-:src/main/java/com/zoi4erom/messenger/config/AppConfig.java,1\8\18443164f7e0de976ff9eaebfc037df3c2e547ca
 l
 <src/main/java/com/zoi4erom/messenger/util/HibernateUtil.java,0\5\053d8e6346836f8dd2a366f99632ebdb1c037264
-e
-5src/main/java/com/zoi4erom/messenger/dto/UserDto.java,d\0\d0172259cce36df05a4d5bfd3dfb62a031f96a05
 g
 7src/main/java/com/zoi4erom/messenger/mapper/Mapper.java,5\e\5eba1ecab4ba56a04aa5ea3f9f72f137dd1bd8fe
 i
