@@ -4,17 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc63a567-1104-4b4d-aaa8-4cac92b2b0bd" name="Changes" comment="Login + Register Views+Controller+Service">
+    <list default="true" id="bc63a567-1104-4b4d-aaa8-4cac92b2b0bd" name="Changes" comment="New Entity: Chat, Message, Friend, new Repository for new entity.">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b819803d-3e7b-4525-97ff-1d7a1ae38765.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b819803d-3e7b-4525-97ff-1d7a1ae38765.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b819803d-3e7b-4525-97ff-1d7a1ae38765/storage_v2/_src_/database/messenger.E7tmqg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b819803d-3e7b-4525-97ff-1d7a1ae38765/storage_v2/_src_/database/messenger.E7tmqg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d858189ad5d8e450ced3a131a607ad910ba5f7a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d858189ad5d8e450ced3a131a607ad910ba5f7a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f42b0e363d733754ea4e85106f371921f544ca9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f42b0e363d733754ea4e85106f371921f544ca9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fc12115279a336d748866b161a36dda6d5d993a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fc12115279a336d748866b161a36dda6d5d993a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/2705c389df593c3252aa2289eef6f7eb6c96657a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/389ad0c15d67f8e46e3d6afcfa6479d772c6c90e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/389ad0c15d67f8e46e3d6afcfa6479d772c6c90e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c41e11de608761d6405c710720df58bb13331ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59fdbeda569fda415396baefad23f014aeb2de61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e4e26e8321536faa535d6f1907570fed6df91c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e4e26e8321536faa535d6f1907570fed6df91c2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62045777d1331732c5f7ef7b8a0fa5b5a60251fb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62045777d1331732c5f7ef7b8a0fa5b5a60251fb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6329f7bc9731f338e3a5b0a44bd1abcf52df8ac4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6329f7bc9731f338e3a5b0a44bd1abcf52df8ac4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69d9378cc7739496de65986b43c3e2d8989bde5e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69d9378cc7739496de65986b43c3e2d8989bde5e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e01b029b91bb39824363397533e85849e3fc7fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e01b029b91bb39824363397533e85849e3fc7fd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f42b0e363d733754ea4e85106f371921f544ca9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b495571e663bfde7798f2ea6e560dd6b28458a58" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b495571e663bfde7798f2ea6e560dd6b28458a58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0403bf0791ac9890f19695f48ece1837842def9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1e15fbe24dbbe918c4d62d7e617ae013641a04e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d736b3072b91333a22e92a21725005fb7a76a7cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d736b3072b91333a22e92a21725005fb7a76a7cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed09ac150d531931c69bfb12dcf9e411aca56a7c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed09ac150d531931c69bfb12dcf9e411aca56a7c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/2705c389df593c3252aa2289eef6f7eb6c96657a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4c41e11de608761d6405c710720df58bb13331ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59fdbeda569fda415396baefad23f014aeb2de61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7f42b0e363d733754ea4e85106f371921f544ca9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c0403bf0791ac9890f19695f48ece1837842def9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c1e15fbe24dbbe918c4d62d7e617ae013641a04e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/controllers/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Friend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/FriendRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/FriendRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/ChatRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/ChatRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/FriendRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/FriendRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/MessageRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/Repo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/Repo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/RepoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/RepoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/repository/impl/UserRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoi4erom/messenger/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="CSS File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,36 +90,36 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/Messenger",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15136719",
-    "project.structure.side.proportion": "0.34792626",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Messenger&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34792626&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\Messenger\src\main\resources\com\zoi4erom\messenger\images" />
@@ -112,7 +145,10 @@
       <workItem from="1711634008050" duration="6588000" />
       <workItem from="1711714884124" duration="3050000" />
       <workItem from="1711893033676" duration="104000" />
-      <workItem from="1711895963411" duration="4665000" />
+      <workItem from="1711895963411" duration="5063000" />
+      <workItem from="1711972761801" duration="4030000" />
+      <workItem from="1711977147432" duration="1443000" />
+      <workItem from="1712058446391" duration="4895000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -130,16 +166,36 @@
       <option name="project" value="LOCAL" />
       <updated>1711719427023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New Entity: Chat, Message, Friend, new Repository for new entity.">
+      <option name="closed" value="true" />
+      <created>1711900962227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711900962227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Login + Register Views+Controller+Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login + Register Views+Controller+Service" />
+    <MESSAGE value="New Entity: Chat, Message, Friend, new Repository for new entity." />
+    <option name="LAST_COMMIT_MESSAGE" value="New Entity: Chat, Message, Friend, new Repository for new entity." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

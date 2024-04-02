@@ -1,64 +1,48 @@
 package com.zoi4erom.messenger.repository;
 
 import com.zoi4erom.messenger.entity.BaseEntity;
+import jakarta.persistence.EntityManager;
 import java.io.Serializable;
 import java.util.List;
-import lombok.RequiredArgsConstructor;
-import org.hibernate.SessionFactory;
+import java.util.Optional;
 
-@RequiredArgsConstructor
 public abstract class RepoBase<K extends Serializable, E extends BaseEntity> implements Repo<K, E> {
 
-	private final SessionFactory sessionFactory;
+	private final EntityManager entityManager;
 
 	private final Class<E> clazz;
 
+	public RepoBase(EntityManager entityManager, Class<E> clazz) {
+		this.entityManager = entityManager;
+		this.clazz = clazz;
+	}
+
 	@Override
 	public void create(E e) {
-		try (var session = sessionFactory.openSession()) {
-			session.beginTransaction();
-			session.persist(e);
-			session.getTransaction().commit();
-		}
-
+		entityManager.persist(e);
 	}
 
 	@Override
 	public List<E> getAll() {
-		try (var session = sessionFactory.openSession()) {
-			session.beginTransaction();
-			var entityList = session.createQuery("from " + clazz.getSimpleName(), clazz)
-			    .getResultList();
-			session.getTransaction().commit();
-			return entityList;
-		}
+		return entityManager.createQuery("from " + clazz.getSimpleName(), clazz)
+		    .getResultList();
 	}
 
 	@Override
-	public E getById(K id) {
-		try (var session = sessionFactory.openSession()) {
-			session.beginTransaction();
-			var entity = session.get(clazz, id);
-			session.getTransaction().commit();
-			return entity;
-		}
+	public Optional<E> getById(K id) {
+		return Optional.ofNullable(entityManager.find(clazz, id));
 	}
 
 	@Override
 	public void update(E e) {
-		try (var session = sessionFactory.openSession()) {
-			session.beginTransaction();
-			session.persist(e);
-			session.getTransaction().commit();
-		}
+		entityManager.merge(e);
 	}
 
 	@Override
 	public void delete(K id) {
-		try (var session = sessionFactory.openSession()) {
-			session.beginTransaction();
-			session.remove(id);
-			session.getTransaction().commit();
+		Optional<E> entity = getById(id);
+		if (entity.isPresent()) {
+			entityManager.remove(entity);
 		}
 	}
 }

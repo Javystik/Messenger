@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 //TODO реалізувати MessageStatus(DELIVERED, READ, PENDING),
 // можливо MessageType(file, image, text...)

@@ -16,6 +16,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 @Table(name = "users")
 @Entity
@@ -41,7 +42,6 @@ public class User implements BaseEntity {
 	@ManyToMany(mappedBy = "users")
 	private Set<Chat> chats = new HashSet<>();
 
-
 	@OneToMany(mappedBy = "author")
 	private List<Message> messageList = new ArrayList<>();
 
@@ -52,5 +52,15 @@ public class User implements BaseEntity {
 		this.login = login;
 		this.password = password;
 		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "User{" +
+		    "id=" + id +
+		    ", login='" + login + '\'' +
+		    ", password='" + password + '\'' +
+		    ", email='" + email + '\'' +
+		    '}';
 	}
 }

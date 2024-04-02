@@ -1,7 +1,9 @@
 
 ]
-java:S1700 "Rename field "friend"(¶¾¿¥øÿÿÿÿ8¤Ø©é1J$a8099995-0db8-4bb4-baac-44e74e8ae9af
+java:S1700!"Rename field "friend"(¶¾¿¥øÿÿÿÿ8¤Ø©é1J$6acaf972-2406-4929-b0d4-f832f1029992
 y
-java:S1128"7Remove this unused import 'jakarta.persistence.Column'.(Ó‰ÙE8¿¯Ü©é1J$b82b5dfe-cd59-417d-8c7f-67fb31d2dd39
+java:S1128"7Remove this unused import 'jakarta.persistence.Column'.(Ó‰ÙE8¿¯Ü©é1J$98bb1832-ed03-4609-a12e-e9adaf24ea41
 €
-java:S1128"8Remove this unused import 'jakarta.persistence.Convert'.(øÑÙúÿÿÿÿ8¿¯Ü©é1J$975184ac-3ecb-42c8-80ce-13be8d2b621a
+java:S1128"8Remove this unused import 'jakarta.persistence.Convert'.(øÑÙúÿÿÿÿ8¿¯Ü©é1J$99a03aa3-cf34-4666-8182-b3336d7f8e5e
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8¹‘¹Ìé1

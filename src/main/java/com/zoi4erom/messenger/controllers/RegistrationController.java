@@ -19,7 +19,7 @@ public class RegistrationController {
 	private TextField passwordField;
 	@FXML
 	private Label loginLabel;
-	private static final UserService userService = new UserService();
+	//private static final UserService userService = new UserService();
 
 	@FXML
 	private void initialize() {
@@ -28,14 +28,14 @@ public class RegistrationController {
 		});
 	}
 
-	@FXML
-	private void handleRegisterButtonAction() {
-		String fullName = fullNameField.getText();
-		String email = emailField.getText();
-		String password = passwordField.getText();
-
-		userService.createUser(fullName, email, password);
-	}
+//	@FXML
+//	private void handleRegisterButtonAction() {
+//		String fullName = fullNameField.getText();
+//		String email = emailField.getText();
+//		String password = passwordField.getText();
+//
+//		userService.createUser(fullName, email, password);
+//	}
 	private void switchToLoginPage() {
 		try {
 			Stage stage = (Stage) loginLabel.getScene().getWindow();

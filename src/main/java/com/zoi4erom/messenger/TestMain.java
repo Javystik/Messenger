@@ -1,38 +1,35 @@
 package com.zoi4erom.messenger;
 
-import com.zoi4erom.messenger.entity.Chat;
-import com.zoi4erom.messenger.entity.Friend;
-import com.zoi4erom.messenger.entity.Message;
-import com.zoi4erom.messenger.entity.User;
-import com.zoi4erom.messenger.repository.ChatRepo;
-import com.zoi4erom.messenger.repository.FriendRepo;
-import com.zoi4erom.messenger.repository.MessageRepo;
-import com.zoi4erom.messenger.repository.UserRepo;
-import java.time.LocalDateTime;
+import com.zoi4erom.messenger.dto.UserReadDto;
+import com.zoi4erom.messenger.mapper.UserReadMapper;
+import com.zoi4erom.messenger.repository.impl.UserRepoImpl;
+import com.zoi4erom.messenger.service.UserService;
+import com.zoi4erom.messenger.util.HibernateUtil;
+import java.lang.reflect.Proxy;
+import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 public class TestMain {
-
 	public static void main(String[] args) {
-		try (SessionFactory sessionFactory = new Configuration()
-		    .configure()
-		    .addAnnotatedClass(User.class)
-		    .addAnnotatedClass(Message.class)
-		    .addAnnotatedClass(Chat.class)
-		    .addAnnotatedClass(Friend.class)
-		    .buildSessionFactory()) {
+		try (SessionFactory sessionFactory = HibernateUtil.buildSessionFactory()) {
+			var session = (Session) Proxy.newProxyInstance(
+			    SessionFactory.class.getClassLoader(), new Class[]{Session.class},
+			    ((proxy, method, args1) -> method.invoke(sessionFactory.getCurrentSession(), args1)));
 
-			MessageRepo messageRepo = new MessageRepo(sessionFactory, Message.class);
-			ChatRepo chatRepo = new ChatRepo(sessionFactory, Chat.class);
-			UserRepo userRepo = new UserRepo(sessionFactory);
-			FriendRepo friendRepo = new FriendRepo(sessionFactory, Friend.class);
+			session.beginTransaction();
 
-			var byId = friendRepo.getById(2);
+			UserRepoImpl userRepo = new UserRepoImpl(session);
+			UserReadMapper userReadMapper = new UserReadMapper();
 
-			System.out.println(byId);
+			UserService userService = new UserService(userRepo, userReadMapper);
 
+			var test = userService.getUserByLogin("Test");
+
+
+			session.getTransaction().commit();
+
+			System.out.println(test);
 		}
 
 	}

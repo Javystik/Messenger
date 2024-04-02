@@ -11,9 +11,9 @@ public class AuthenticationService {
 	public boolean authentication(String login, String password){
 		var userByLogin = userService.getUserByLogin(login);
 
-		if(userByLogin != null && userByLogin.getPassword().equals(password)){
-			return true;
-		}
+//		if(userByLogin != null && userByLogin.getPassword().equals(password)){
+//			return true;
+//		}
 		return false;
 	}
 
